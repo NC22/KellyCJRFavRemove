@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "js": [ "favremove.js" ],
+      "all_frames": true,
+      "matches": [ 
+        "*://joyreactor.cc/*",
+        "*://*.joyreactor.cc/*", 
+        "*://*.reactor.cc/*", 
+        "*://joyreactor.com/*",
+        "*://jr-proxy.com/*",
+        "*://safereactor.cc/*"
+        ]
+   } ],
+   "manifest_version" : 2,
+   "version": "1.0.0.0",
+   "name": "JRFavRemove",
+   "description": "remove jr fav items",
+   "author" : "nradiowave"
+}
