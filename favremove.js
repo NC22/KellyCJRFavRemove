@@ -15,7 +15,8 @@ var init = function() {
         else if (document.querySelector('.favorite_link')) {
          location.reload();
         } else {
-            runBtn.innerText = 'no any favitems found'
+            runBtn.innerText = 'no any favitems found';
+            localStorage.removeItem('kelly_remove_jr_fav_run');
         }
     }
 
